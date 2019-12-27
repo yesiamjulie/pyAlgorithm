@@ -2,7 +2,7 @@ def solution(people, limit):
     people.sort()
     answer = 0
 
-    start = 0;
+    start = 0
     end = len(people) -1
 
     while start <= end:
